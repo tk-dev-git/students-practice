@@ -8,7 +8,7 @@ for (let e1 of list1) {
         // 10 で割った時の「余り」（剰余）を比較
         if (e1 % 10 == e2 % 10) {
             console.log(`[match] (${e1}, ${e2})`);
-            result.push((e1, e2));
+            result.push([e1, e2]);
         }
     }
 }
