@@ -9,4 +9,5 @@ for a in arr:
     else:
         count[a] = 1
 
+print("=" * 35)
 print(f"[集計結果]: {count}")

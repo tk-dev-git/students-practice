@@ -13,4 +13,5 @@ for (let e1 of list1) {
     }
 }
 
+console.log(`===================================`);
 console.log(`[一の位が一致する組]: ${result.length}`);

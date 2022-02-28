@@ -10,4 +10,5 @@ for e1 in list1:
             print(f"[match] ({e1}, {e2})")
             result.append((e1, e2))
 
+print("=" * 35)
 print(f"[一の位が一致する組]: {len(result)}")
